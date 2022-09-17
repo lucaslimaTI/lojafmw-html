@@ -18,7 +18,7 @@
 
                 </div>
                 <div class="formulario01">
-                    <form action="html-login.html" method="POST">
+                    <form>
                         <div class="dados">
                             <input type="email"     name="email_cliente"        id="email_cliente" placeholder="*Email:"                class="input-text"  autocomplete="off"> <br>
                             <input type="password"  name="senha_cliente"        id="senha_cliente" placeholder="*Senha:"                class="input-text"  autocomplete="off"> <br>
@@ -51,6 +51,7 @@
     <script>
        function cadastrar(){
             alert('Usuario cadastrado com sucesso - Boas Compras!');
+           location.href = "html-login.html";
         }
     </script>
 </body>
