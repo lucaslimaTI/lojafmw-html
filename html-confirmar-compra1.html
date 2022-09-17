@@ -47,7 +47,7 @@
                 <div class="finalizar-compra2" >
                     <img src="cart-check.svg" alt="" class="finalizar-compra">
                 </div>
-                   <form action="pos-login.html" method="POST">
+                   <form>
                     <div class="card-comprar">
                         <ul class="listas">
                             <div class="frete">
@@ -85,6 +85,7 @@
     <script>
         function finalizar(){
             alert('COMPRA FINALIZADA COM SUCESSO!');
+            location.href = "pos-login.html";
         }
         function cancelar(){
             alert('SUA COMPRA FOI CANCELADA!');
