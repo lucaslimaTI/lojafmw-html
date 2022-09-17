@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ffffff;
+}
+.main{
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    
+}
+.container{
+    background-image:linear-gradient(to right, rgba(39, 102, 184, 0.612), #0494a757);
+    background-color: #ffffff;
+    padding-bottom: 4vw;
+    padding-top: 4vw;
+    margin-top: 45px;
+    margin-left: 26vw;
+    margin-right: 25vw;
+    margin-bottom: 100px;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+    border-radius: 16px;
+    box-shadow: 1px 1px 15px #2929297c;
+    border: 2px solid #ffffff;
+}
+.card-login{
+    padding-left: 10px;
+    padding-bottom: 2vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    background-image:linear-gradient(to right, rgba(39, 102, 184, 0.612), #00e1ff57);
+    background-color: #ffffff;
+    margin-top: 1px;
+    border-radius: 29px;
+    box-shadow: 1px 1px 12px #ffffff93;
+    border: 1px solid #ffffff;
+    /* border-right: 2px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    border-top: 1px solid #dadada67; */
+    backdrop-filter: blur(2px);
+    
+    
+}
+.card-login label{
+    color: #ffffff;
+    text-decoration: none;
+    text-align: left;
+}
+.titulo{
+    padding-top: 1vw;
+    color: #ffffff;
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 6px;
+    font-size: 34px;
+    text-shadow: 0px 0px 6px rgba(24, 24, 24, 0.534);
+}
+input::placeholder{
+    font-weight: 800;
+    color:#303030 ;
+
+}
+.input-text{
+    margin-top: 35px;
+    padding-top: 1.4vw;
+    padding-bottom: 1.4vw;
+    width: 30vw;
+    border: none;
+    outline: none;
+    box-shadow: 1px 1px 10px #30303083;
+    text-decoration: none;
+    color: #3f353c;
+    font-weight: 800;
+    font-size: 15px;
+    padding-inline-start: 20px;
+
+    background: #ffffff;
+    border: 0px solid #ffffff;
+    border-radius: 20px;
+}
+.input-radio{
+    text-align: left;
+    font-size: 20px;
+    margin-left: 3.2vw;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+.input-radio input{
+    background-color: #53cbbf;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    margin-top: 15px;
+}
+.input-radio input:checked + label {
+    transition: 1s;
+    border-radius: 10px;
+    color: #fffb00;
+  }
+.funcao03{
+    font-weight: 800;
+    margin-left: 3.2vw;
+    text-align: left;
+    margin-top: 25px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn-cadastrar{
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    width: 22vw;
+    padding-top: 0.8vw;
+    padding-bottom: 0.8vw;
+    border: 1px solid #ffffff;
+    outline: none;
+    border-radius: 5px;
+    background: transparent;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 18px;
+    box-shadow: 0px 0px 4px #ffffff;
+    letter-spacing: 3px;
+    cursor: pointer;
+   
+}
+.btn-cadastrar:hover{
+    transition: 1s;
+    color: #132d4e;
+    text-shadow:0px 0px 9px #acfcfd00;
+    box-shadow: 1px 1px 14px #1f201f75;
+    border-radius: 30px;
+    background-image:linear-gradient(to right, rgba(39, 102, 184, 0.612), #0494a757);
+}
+.logar{
+    cursor: pointer;
+}
+.style-hr01{
+    margin-top: 15px;
+    width: 98.5%;
+    height: 10px;
+    background: transparent;
+    border-bottom: 3px solid #ffffff;
+    border-radius: 10px;
+}
+.style-hr02{
+    margin-top: 36px;
+    width: 98.5%;
+    height: 2px;
+    background: #2f998e;
+    border-radius: 10px;
+}
+.criar-conta01{
+    color: #ffffff;
+    margin-top: 15px;
+    padding: 10px;
+    width: 35vw;
+    background-color:transparent;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.criar-conta02{
+    color: #001353;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a:hover{
+    transition: 0.6s;
+    font-weight: 800;
+    color: rgb(0, 100, 117);
+    font-size: 18px;
+}
+@media(max-width: 999px)
+{
+    .titulo{
+        padding-top: 4vw;
+        color: #ffffff;
+        font-weight: 800;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        letter-spacing: 5px;
+        font-size: 26px;
+        text-shadow: 0px 0px 6px rgba(24, 24, 24, 0.534);
+        width: 58vw;
+    }
+    .container{
+        width: 70vw;
+        
+        background-color: #ffffff;
+        padding-bottom: 4vw;
+        padding-top: 4vw;
+        margin-top: 52px;
+        margin-left: 15vw;
+        margin-right: 25vw;
+        margin-bottom: 100px;
+        text-align: center;
+        justify-content: center;
+        text-align: center;
+        justify-items: center;
+        border-radius: 20px;
+        box-shadow: 0px 0px 15px #27272760;
+        border: 2px solid #ffffff;
+        
+    }
+    .card-login{
+        width: 57vw;
+        padding-bottom: 2vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
+
+        background-color: #ffffff;
+        margin-top: 1px;
+        border-radius: 29px;
+        box-shadow: 1px 1px 12px #ffffff;
+        border-right: 2px solid #ffffff;
+        border-bottom: 1px solid #ffffff;
+        border-top: 1px solid #dadada67;
+        backdrop-filter: blur(2px);   
+    }
+    .btn-cadastrar{
+        margin-top: 20px;
+        text-align: center;
+        align-items: center;
+        align-self: center;
+        width: 35vw;
+        padding-top: 0.8vw;
+        padding-bottom: 0.8vw;
+        border: 1px solid #ffffff;
+        outline: none;
+        border-radius: 5px;
+        background: transparent;
+        color: #ffffff;
+        font-weight: 800;
+        font-size: 18px;
+        letter-spacing: 3px;
+        box-shadow: 0px 0px 4px #ffffff;
+        cursor: pointer;
+       
+    }
+}
+.none-input{
+    display: none;
+}
